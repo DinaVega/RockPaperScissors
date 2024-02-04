@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1320px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  position: relative;
+  /* background-color: rgb(157, 202, 255); */
+}
+
+body {
+  font-family: "Seymour One", sans-serif;
+  font-style: normal;
+  background-color: rgb(157, 202, 255);
+  text-shadow: 4px 4px 0px #000;
+  -webkit-text-stroke-width: 2;
+  -webkit-text-stroke-color: #000;
+  /* position: relative; */
+}
+
+button {
+  cursor: pointer;
+  background: 0;
+  border: 0;
+  color: inherit;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  gap: 256px;
+  padding-top: 97px;
+  margin-bottom: 436px;
+}
+
+h2 {
+  color: rgb(255, 255, 255);
+  font-size: 160px;
+  font-weight: 400;
+  line-height: 201px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+p {
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -10%;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 31px;
+  padding-bottom: 62px;
+}
+
+.armHuman {
+  position: absolute;
+  right: 0%;
+  rotate: -50deg;
+  top: 5%;
+  transform: translateX(-10%) translateY(10%) rotate(0deg) scaleX(-1);
+  height: 1216px;
+  width: 441px;
+}
+
+.armRobot {
+  position: absolute;
+  left: 0%;
+  rotate: 50deg;
+  top: 5%;
+  transform: translateX(13%) translateY(10%) rotate(0deg) scaleX(1);
+  height: 1216px;
+  width: 441px;
+}
+
+.rockRobot {
+  position: absolute;
+  top: 39%;
+  right: 60%;
+  rotate: 74deg;
+  width: 200px;
+  height: 300px;
+}
+
+.rockHuman {
+  position: absolute;
+  top: 37%;
+  left: 66%;
+  rotate: -35deg;
+  transform: scaleX(-1);
+  width: 200px;
+  height: 300px;
+}
